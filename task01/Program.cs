@@ -62,6 +62,11 @@ namespace task01
             //int Pages = 300;
             //Double pages = Pages;
             #endregion
+            #region Question 6
+            // Declare a double price = 49.99; then convert it into an int using a cast.
+            //double price = 49.99;
+            //int x = (int)price;
+            #endregion
         }
 
 
