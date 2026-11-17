@@ -30,6 +30,11 @@ namespace task01
                 + obj.GetHashCode());
 
             #endregion
+            #region Question 3
+            //int pages = "464";// it's compile time error
+            //int pages = 464;
+
+            #endregion
 
         }
 
