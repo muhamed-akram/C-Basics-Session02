@@ -105,6 +105,15 @@ namespace task01
 
             int number = (int)obj2;
             #endregion
+            #region Question 11
+            // Declare an int? year = null;
+            // . Print whether it has a value,
+            // then assign it 2023 and print its value
+            int? year1 = null;
+            Console.WriteLine(year1.HasValue);
+            year1 = 2023;
+            Console.WriteLine(year1);
+            #endregion
 
 
         }
