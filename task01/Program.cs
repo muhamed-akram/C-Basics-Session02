@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel.Design;
+using System.Drawing;
 
 namespace task01
 {
@@ -34,6 +35,20 @@ namespace task01
             //int pages = "464";// it's compile time error
             //int pages = 464;
 
+            #endregion
+            #region Question 4
+            //try
+            //{
+            //    int y = 0;
+            //    int x = 10 / y;
+            //}catch(DivideByZeroException ex)
+            //{
+            //    Console.WriteLine("cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
             #endregion
 
         }
