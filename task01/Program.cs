@@ -128,6 +128,13 @@ namespace task01
             Console.WriteLine(t);
 
             #endregion
+            #region Question 14
+            // Using title from the previous question,
+            // use ?? to print "Untitled" if title is null.Then use ??= to
+            //assign title the value "Untitled" only if it's still null.
+            Console.WriteLine(book?.Title ?? "Untitled");
+
+            #endregion
 
         }
 
