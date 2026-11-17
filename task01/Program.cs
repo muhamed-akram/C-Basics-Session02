@@ -86,6 +86,16 @@ namespace task01
             else
                 Console.WriteLine("Invalid");
             #endregion
+            #region Queestion 9
+            // Given int pages = 464;,
+            // convert it into a string using ToString() and print its type using GetType()
+            // to prove it's now a string
+
+            int pages = 464;
+            string y = pages.ToString();
+            Console.WriteLine(y.GetType());
+
+            #endregion
 
         }
 
