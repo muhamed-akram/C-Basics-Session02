@@ -119,6 +119,15 @@ namespace task01
             string? reviewer = null;
             Console.WriteLine(reviewer == null);
             #endregion
+            #region Question 13
+            // Declare a Book? book = null;. Use ?. to safely read
+            // book.Title without crashing the program, and
+            // print the result.
+            Book? book = null;
+            string? t = book?.Title;
+            Console.WriteLine(t);
+
+            #endregion
 
         }
 
