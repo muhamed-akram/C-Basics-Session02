@@ -114,7 +114,11 @@ namespace task01
             year1 = 2023;
             Console.WriteLine(year1);
             #endregion
-
+            #region Question 12
+            // Declare a string? reviewer = null;. Print whether it is null.
+            string? reviewer = null;
+            Console.WriteLine(reviewer == null);
+            #endregion
 
         }
 
