@@ -67,6 +67,11 @@ namespace task01
             //double price = 49.99;
             //int x = (int)price;
             #endregion
+            #region Question 7
+            // Given string pagesText = "464";, convert it into an int using the Convert class
+            //string pagesText = "464";
+            //int number = Convert.ToInt32(pagesText);
+            #endregion
         }
 
 
