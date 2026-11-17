@@ -96,6 +96,16 @@ namespace task01
             Console.WriteLine(y.GetType());
 
             #endregion
+            #region Question 10
+            //  Declare int copies = 100;. Box it into an object variable,
+            //  then unbox it back into a new int
+            //variable, and print both
+            int copies = 100;
+            object obj2 = copies;
+
+            int number = (int)obj2;
+            #endregion
+
 
         }
 
